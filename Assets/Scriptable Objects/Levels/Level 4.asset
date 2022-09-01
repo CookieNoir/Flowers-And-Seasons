@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4c94ceca5e115a4b87938d4f55708da, type: 3}
+  m_Name: Level 4
+  m_EditorClassIdentifier: 
+  _levelIcon: {fileID: 21300000, guid: 03f5e720a465c8041a2160f266dd2b93, type: 3}
+  _showOnlyWhenReached: 0
+  _worldSize: {x: 6, y: 4}
+  _playerStartPosition: {x: 2, y: 1}
+  _regions:
+  - startPosition: {x: 0, y: 0}
+    endPosition: {x: 2, y: 2}
+    startSeason: 3
+  - startPosition: {x: 4, y: 1}
+    endPosition: {x: 5, y: 3}
+    startSeason: 0
+  - startPosition: {x: 0, y: 3}
+    endPosition: {x: 3, y: 3}
+    startSeason: 1
+  _obstaclesStartPositions:
+  - obstaclePrefabId: 5
+    position: {x: 1, y: 2}
+    rotation: 0
+  - obstaclePrefabId: 2
+    position: {x: 2, y: 2}
+    rotation: 190
+  - obstaclePrefabId: 0
+    position: {x: 3, y: 3}
+    rotation: 0
+  - obstaclePrefabId: 7
+    position: {x: 5, y: 3}
+    rotation: 0
+  - obstaclePrefabId: 3
+    position: {x: 5, y: 1}
+    rotation: 0
+  _flowerDatas:
+  - flowerModelId: 1
+    startNumberOfSeeds: 0
+    requiredNumberOfFlowers: 4
+  - flowerModelId: 2
+    startNumberOfSeeds: 0
+    requiredNumberOfFlowers: 4
+  _flowerStartPositions:
+  - flowerDataId: 0
+    position: {x: 4, y: 1}
+  - flowerDataId: 1
+    position: {x: 2, y: 3}
+  _isLimited: 1
+  _numberOfMoves: 22
+  _entryWindow: {fileID: 0}
+  _environmentData: {fileID: 11400000, guid: 1f560387a9edaf24a9dedb7777cbbbae, type: 2}

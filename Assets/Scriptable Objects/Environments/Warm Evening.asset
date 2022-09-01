@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b73ad13f27707b4ca43ca0bc7e02941, type: 3}
+  m_Name: Warm Evening
+  m_EditorClassIdentifier: 
+  sunEulerAngle: {x: 50, y: -70, z: 0}
+  sunColor: {r: 1, g: 0.8746296, b: 0.6839622, a: 1}
+  intensity: 0.7
+  skyColor: {r: 0.681, g: 0.31209525, b: 0.17667454, a: 0}
+  ambientColor: {r: 0.44470766, g: 0.52723074, b: 0.59599996, a: 1}

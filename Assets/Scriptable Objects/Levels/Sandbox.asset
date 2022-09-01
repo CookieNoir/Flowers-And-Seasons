@@ -1,0 +1,171 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4c94ceca5e115a4b87938d4f55708da, type: 3}
+  m_Name: Sandbox
+  m_EditorClassIdentifier: 
+  _levelIcon: {fileID: 21300000, guid: 97cffeaf9005338458abde2186ac7e87, type: 3}
+  _showOnlyWhenReached: 1
+  _worldSize: {x: 16, y: 16}
+  _playerStartPosition: {x: 7, y: 7}
+  _regions:
+  - startPosition: {x: 7, y: 10}
+    endPosition: {x: 13, y: 15}
+    startSeason: 1
+  - startPosition: {x: 3, y: 7}
+    endPosition: {x: 6, y: 13}
+    startSeason: 2
+  - startPosition: {x: 10, y: 8}
+    endPosition: {x: 15, y: 9}
+    startSeason: 0
+  - startPosition: {x: 9, y: 3}
+    endPosition: {x: 14, y: 7}
+    startSeason: 1
+  - startPosition: {x: 5, y: 4}
+    endPosition: {x: 7, y: 5}
+    startSeason: 0
+  - startPosition: {x: 11, y: 1}
+    endPosition: {x: 13, y: 2}
+    startSeason: 3
+  - startPosition: {x: 5, y: 0}
+    endPosition: {x: 9, y: 2}
+    startSeason: 0
+  - startPosition: {x: 1, y: 3}
+    endPosition: {x: 3, y: 6}
+    startSeason: 1
+  - startPosition: {x: 2, y: 0}
+    endPosition: {x: 3, y: 1}
+    startSeason: 0
+  - startPosition: {x: 14, y: 1}
+    endPosition: {x: 14, y: 1}
+    startSeason: 2
+  - startPosition: {x: 4, y: 2}
+    endPosition: {x: 4, y: 3}
+    startSeason: 2
+  - startPosition: {x: 8, y: 7}
+    endPosition: {x: 8, y: 7}
+    startSeason: 2
+  - startPosition: {x: 1, y: 14}
+    endPosition: {x: 1, y: 14}
+    startSeason: 1
+  - startPosition: {x: 0, y: 9}
+    endPosition: {x: 2, y: 9}
+    startSeason: 1
+  _obstaclesStartPositions:
+  - obstaclePrefabId: 7
+    position: {x: 8, y: 7}
+    rotation: -113
+  - obstaclePrefabId: 0
+    position: {x: 13, y: 6}
+    rotation: 170
+  - obstaclePrefabId: 3
+    position: {x: 7, y: 2}
+    rotation: 84
+  - obstaclePrefabId: 5
+    position: {x: 8, y: 0}
+    rotation: 12
+  - obstaclePrefabId: 6
+    position: {x: 1, y: 4}
+    rotation: 187
+  - obstaclePrefabId: 4
+    position: {x: 12, y: 2}
+    rotation: 99
+  - obstaclePrefabId: 0
+    position: {x: 2, y: 9}
+    rotation: 7
+  - obstaclePrefabId: 2
+    position: {x: 11, y: 8}
+    rotation: 354
+  - obstaclePrefabId: 6
+    position: {x: 14, y: 9}
+    rotation: 11
+  - obstaclePrefabId: 4
+    position: {x: 10, y: 13}
+    rotation: 165
+  - obstaclePrefabId: 2
+    position: {x: 5, y: 10}
+    rotation: 8
+  - obstaclePrefabId: 5
+    position: {x: 5, y: 5}
+    rotation: 94
+  - obstaclePrefabId: 2
+    position: {x: 11, y: 4}
+    rotation: 76
+  - obstaclePrefabId: 3
+    position: {x: 2, y: 1}
+    rotation: 172
+  - obstaclePrefabId: 4
+    position: {x: 3, y: 7}
+    rotation: 281
+  - obstaclePrefabId: 5
+    position: {x: 6, y: 13}
+    rotation: 347
+  - obstaclePrefabId: 6
+    position: {x: 12, y: 11}
+    rotation: 2
+  - obstaclePrefabId: 4
+    position: {x: 7, y: 10}
+    rotation: 97
+  - obstaclePrefabId: 1
+    position: {x: 1, y: 14}
+    rotation: 176
+  _flowerDatas:
+  - flowerModelId: 0
+    startNumberOfSeeds: 10
+    requiredNumberOfFlowers: 0
+  - flowerModelId: 1
+    startNumberOfSeeds: 10
+    requiredNumberOfFlowers: 0
+  - flowerModelId: 2
+    startNumberOfSeeds: 10
+    requiredNumberOfFlowers: 0
+  - flowerModelId: 3
+    startNumberOfSeeds: 10
+    requiredNumberOfFlowers: 0
+  _flowerStartPositions:
+  - flowerDataId: 2
+    position: {x: 3, y: 5}
+  - flowerDataId: 3
+    position: {x: 12, y: 5}
+  - flowerDataId: 2
+    position: {x: 10, y: 7}
+  - flowerDataId: 0
+    position: {x: 6, y: 1}
+  - flowerDataId: 1
+    position: {x: 7, y: 4}
+  - flowerDataId: 0
+    position: {x: 11, y: 1}
+  - flowerDataId: 1
+    position: {x: 9, y: 2}
+  - flowerDataId: 3
+    position: {x: 4, y: 2}
+  - flowerDataId: 3
+    position: {x: 4, y: 3}
+  - flowerDataId: 2
+    position: {x: 9, y: 11}
+  - flowerDataId: 1
+    position: {x: 13, y: 12}
+  - flowerDataId: 3
+    position: {x: 10, y: 14}
+  - flowerDataId: 3
+    position: {x: 4, y: 9}
+  - flowerDataId: 1
+    position: {x: 2, y: 3}
+  - flowerDataId: 3
+    position: {x: 9, y: 5}
+  - flowerDataId: 3
+    position: {x: 7, y: 13}
+  - flowerDataId: 2
+    position: {x: 5, y: 12}
+  _isLimited: 0
+  _numberOfMoves: 0
+  _entryWindow: {fileID: 7986699528731212973, guid: 32ef405b4c1949d4eac5abd6bd97265d, type: 3}
+  _environmentData: {fileID: 0}
